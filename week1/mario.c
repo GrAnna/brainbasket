@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <cs50.h>
+#include "cs50.h"
 
 int main(void)
 {
@@ -10,7 +10,7 @@ int main(void)
     n = GetInt();
     }
     while (n > 23 || n < 1);
-    
+
     for (int i = 0; i < n; i++)
     {
     int hash = 0;
